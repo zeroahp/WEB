@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2</title>
+</head>
+<!-- <a></a> link  -->
+<!-- href thuoc tinh xac dinh dia chi lien ket -->
+<!-- target : thuoc tinh xac dinh noi ma tai lieu duoc mo
+    _self : mo link o vi tri hien tai
+    _blank: mo link trong tab moi
+-->
+
+    <body>
+        <p>BAI TAP 1-2</p>
+    <hr>
+        <a href="https://www.facebook.com/" >Pham Huynh Anh</a>
+        <br>
+        <a href="https://www.instagram.com/" target="_blank" title="click here">ahpzero</a>
+        <br>
+        <br>
+        <a href="https://www.instagram.com/ahpzero/" title="Instagram">
+            <img src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t39.30808-6/310001825_1439234819815564_6207351328671768571_n.jpg?stp=cp6_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=H4UuPEKdl-gAX9ZuuiU&tn=jH1jGEanw8fxSBAR&_nc_ht=scontent.fsgn5-2.fna&oh=00_AfDrUDI8Gr8U__PmJShGw6xuefJDrAhut6tI-ulde-s71A&oe=63BE62DB" alt="ahpzero"width=“700” height="960">
+        </a>
+        <!-- click anh sang trang khac -->
+        <br>
+        <img src="../IMG_8065.JPG" width="700" height="950">
+        <!-- truy cao anh ngoai thu muc -->
+
+        <br>
+        <img src="image/IMG_7457.JPG" width="700" height="950" >
+        <!-- truy cap anh trong folder -->
+        <br>
+        <p>BAI TAP 3</p>
+    <hr>
+        <video controls loop width="700" height="950"> 
+            <source src="lotso.mp4" type="video/mp4" >
+        </video>
+        <!-- controls de phat video 
+            source : duong dan video 
+            type : kieu video(mp4, ogg, webm)
+            autoplay muted: tu phat video
+            muted : tat tieng  
+            loop : lap video 
+            *autoplay di chung voi muted*
+        -->
+        <br>
+
+        <!-- <audio>
+            <source src="">
+        </audio> -->
+        <!-- giong video, khac ten goi -->
+
+        <br>
+        <p>BAI TAP 4</p>
+    <hr>
+        <style>
+            table, tr, th, td{
+                border: 1px solid #ddd;
+            }
+
+            td, th{
+                padding: 10px;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3"><strong>Hóa đơn số 1234</strong></th>
+                    <th><strong>Ngày 20/11/2022</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2"><strong>Thông tin khách hàng</strong><br>
+                        <br>Họ tên: Đặng Phương Nam<br>
+                        <br>Số điện thoại: 0123456789<br>
+                        <br>Địa chỉ: số 123, đường Abc, thành phố Hà Nội.<br>
+                    </td>
+                    <td colspan="2"><strong>Thông tin vận chuyển đơn hàng</strong><br>
+                        <br>Họ tên: Đặng Phương Nam<br>
+                        <br>Số điện thoại: 0987654321<br>
+                        <br>Địa chỉ: số 234, đường Xyz, thành phố Hà Nội.<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Tên sản phẩm</strong></td>
+                    <td><strong>Số lượng</strong></td>
+                    <td><strong>Đơn giá</strong></td>
+                    <td><strong>Thành tiền</strong></td>
+                   
+                </tr>
+                <tr>
+                    <td>Giày nam cao cấp</td>
+                    <td>2</td>
+                    <td>800.000đ</td>
+                    <td>1.600.000đ</td>
+        
+                </tr>
+                <tr>
+                    <td>Giày nữ cao cấp</td>
+                    <td>1</td>
+                    <td>500.000đ</td>
+                    <td>1.000.000đ</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="3"><strong>Tạm tính</strong></td>
+                    <td>2.600.000đ</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="3"><b>Thuế VAT 10%</b>></td>
+                    <td>260.000đ</td>               
+
+                </tr>
+                <tr>
+                    <td colspan="3"><b>Tổng tiền</b></td>
+                    <td>2.860.000đ</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <p>BAI TAP 5</p>
+    <hr>
+        <p>Tạo danh sách sau sử dụng thẻ ul, li</p>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+        <p>Tạo danh sách sau sử dụng thẻ ol, li</p>
+
+        <ol>
+            <li>Thời trang</li>
+            <li>Công nghệ</li>
+            <li>Đồ điện tử</li>
+            <li>Đồ gia dụng</li>
+        </ol>
+        <!-- ol: sap xep danh so -->
+        <p>Tạo danh sách sau sử dụng thẻ ol, li.Có kiểu là chữ La mã viết hoa</p>
+
+        <ol type="I">
+            <li>Học HTML5</li>
+            <ol type="A">
+                <li>Minimal Page</li>
+                <li>Headings</li>
+                <li>Tags</li>
+                <li>List</li>
+                <ol type="i">
+                    <li>Unordered</li>
+                    <li>Ordered</li>
+                    <li>Definition</li>
+                    <li>Nested</li>
+                </ol>
+                <li>Links</li>
+                <ol type="i">
+                    <li>Absolute</li>
+                    <li>Relative</li>
+                </ol>
+                <li>Images</li>
+            </ol>
+            <li>Học CSS3</li>
+            <li>Học Bootstrap 4</li>
+            <li>Đồ Javascript</li>
+        </ol>
+
+    <p>BAI TAP 6</p>
+    <hr>
+    <p>----class----</p>
+    <style>
+        .title{
+            color:palevioletred;
+        }
+    </style>
+    <div class="title">
+        <p>Hello World</p>
+    </div>
+    <p>----id----</p>
+    <div id="test-id">
+        <p>Hello World </p>
+    </div>
+
+
+    </body>
+</html>
