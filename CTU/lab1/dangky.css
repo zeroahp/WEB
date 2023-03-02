@@ -1,0 +1,13 @@
+td{
+    padding-left: 40px;
+}
+
+th{
+    text-align: left;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    width: 550px;
+}
+
