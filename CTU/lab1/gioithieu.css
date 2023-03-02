@@ -1,0 +1,7 @@
+h1 ,h2{
+    text-transform: capitalize; /* viet hoa moi chu cai dau*/
+}
+
+.normalize {
+    text-transform: none;
+}
