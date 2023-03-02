@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="shortcut icon" href="../lab1/data/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="dangky.css">
+</head>
+
+<body>
+    <header>
+        <a href="trangchu.html">
+            <img src="../lab1/data/images/logo.png" id="logo">
+        </a>
+
+        <nav>
+            <a href="trangchu.html">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="tintuc.html">Tin tức</a>
+            <a href="dangnhap.html">Đăng nhập</a>
+            <a href="dangky.html">Đăng ký</a>
+            <a href="lienhe.html">Liên hệ</a>
+        </nav>
+    </header>
+
+    <main>
+        <form method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>ĐĂNG KÝ</legend>
+                <table>
+                    <tr>
+                        <th>
+                            <label for="email">Email</label>
+                        </th>
+                        <td>
+                            <input type="text" id="email" name="email" placeholder="Vui lòng nhập email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="password">Mật khẩu</label>
+                        </th>
+                        <td>
+                            <input type="password" id="password" name="password" placeholder="Vui lòng nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="password2">Nhập lại mật khẩu</label>
+                        </th>
+                        <td>
+                            <input type="password" id="password2" name="password" placeholder="Vui lòng nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="capdo">Cấp độ thành viên</label>
+                        </th>
+                        <td>
+                            <input type="radio" id="Bac" name="MemberType">
+                            <label for="Bac"><b>Bạc</b></label>
+                            <input type="radio" id="Vang" name="MemberType">
+                            <label for="Vang"><b>Vàng</b></label>
+                            <input type="radio" id="Bachkim" name="MemberType">
+                            <label for="Bachkim"><b>Bạch Kim</b></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="image">Ảnh đại diện</label>
+                        </th>
+                        <td>
+                            <input type="file" id="image" name="file" placeholder="Vui lòng nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Thông qua việc tạo tài khoản, bạn đồng ý với
+                            <a href="dieukhoan.html">Điều khoản & Quyền riêng tư của chúng tôi.</a>
+                            <input type="reset" id="huy" value="Hủy">
+                            <input type="submit" id="dangky" value="Đăng ký">
+                        </th>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <span>&copy; 2021 Bản quyển thuộc về FreeezeVN.</span>
+
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://twitter.com/">Twitter</a>
+        <a href="https://www.pinterest.com/">Pinterest</a>
+        <a href="#logo">Về đầu trang</a>
+
+    </footer>
+</body>
+
+</html>
