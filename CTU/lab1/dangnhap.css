@@ -1,0 +1,21 @@
+fieldset{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+tr td img{
+    align-items: center;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+td label{
+    padding-right: 50px;
+}
+
+td input{
+    align-items: 50%;
+}
+
