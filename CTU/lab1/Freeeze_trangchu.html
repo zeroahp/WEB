@@ -5,88 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Chủ</title>
-
     <link rel="stylesheet" href="Freeeze.css">
-
-    <!-- <link rel="icon" href=""> -->
-    <link rel="shortcut icon" href="../lab1/data/images/favicon.ico" type="image/x-icon">
-
+    <!-- link icon trang -->
+    <link rel="shortcut icon" href="../lab1/" type="image/x-icon">
+    <!-- link chen icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <a href="trangchu.html">
             <img src="../lab1/data/images/logo.png" id="logo">
         </a>
-        
+        <img class="img-1" src="data/images/header-img1.png" alt="header-img1">
+        <img class="img-2" src="data/images/header-img2.png" alt="header-img2">
+        <img class="img-3" src="data/images/header-img3.png" alt="header-img3">
+
         <nav>
-            <a href="trangchu.html">Trang chủ</a>
-            <a href="gioithieu.html">Giới thiệu</a>
-            <a href="sanpham.html">Sản phẩm</a>
-            <a href="tintuc.html">Tin tức</a>
-            <a href="dangnhap.html">Đăng nhập</a>
-            <a href="dangky.html">Đăng ký</a>
-            <a href="lienhe.html">Liên hệ</a>
-        </nav>
+            <div class="dieuhuong">
+                <a href="trangchu.html">Trang chủ</a>
+                <a href="gioithieu.html">Giới thiệu</a>
+                <a href="sanpham.html">Sản phẩm</a>
+                <a href="tintuc.html">Tin tức</a>
+                <a href="dangnhap.html">Đăng nhập</a>
+                <a href="dangky.html">Đăng ký</a>
+                <a href="lienhe.html">Liên hệ</a>
+            </div>
+
+            <div class="search">
+                <input type="text" id="search" placeholder="Nhập nội dung cần tìm...">
+                <i id="timkiem" class="fa-solid fa-magnifying-glass"></i>
+                <i id="giohang" class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>      
     </header>
     <main>
-        
-        <img src="../lab1/data/images/trangchu/bg-home.jpg">
-        <h1>Sản phẩm mới</h1>
-        <h2>Sữa chua tốt cho sức khỏe</h2>
-        <img src="../lab1/data/images/trangchu/yogurt.jpg">
-        
         <article>
-            <p>Sữa chua là một loại thực phẩm được tạo ra từ quá trình lên men sữa của các vi khuẩn. Hầu hết các loại sửa đều có thể dùng làm sữa chua, tuy nhiên sửa bỏ là được dùng nhiều hơn hết. Sữa chua hay được gọi là yaourt (là da-ua). Chúng được lên men từ sữa động vật nhờ vi khuẩn lactic, đã được khi chất béo và thanh trùng ở nhiệt độ 80 - 90 độ C.Sữa chua có 2 loại cơ bản là sửa chua có đường và sửa chua không đường. Bên cạnh đó còn có loại sữa chua uống, sửa chua mơn sống. Váng sữa thường được chia làm 3 loại dựa vào hàm lượng chất béo có trong sản phẩm: vàng sữa có hàm lượng chất béo cao nhất (35-50% chất béo), vàng sửa thông thưởng (10-30% chất béo), 
-                váng sữa nguyên kem (6-150, chất béo).<a href="xemchiteit.html">Xem chi tiết</a>
-            </p>
+            <img src="../lab1/data/images/trangchu/bg-home.jpg">
+            <!-- ************* -->
+            <h1 class="rule">Sản phẩm mới</h1>
+            <h2>Sữa chua tốt cho sức khỏe</h2>
+            <img src="../lab1/data/images/trangchu/yogurt.jpg">
+                <p>Sữa chua là một loại thực phẩm được tạo ra từ quá trình lên men sữa của các vi khuẩn. Hầu hết các loại sửa đều có thể dùng làm sữa chua, tuy nhiên sửa bỏ là được dùng nhiều hơn hết. Sữa chua hay được gọi là yaourt (là da-ua). Chúng được lên men từ sữa động vật nhờ vi khuẩn lactic, đã được khi chất béo và thanh trùng ở nhiệt độ 80 - 90 độ C.Sữa chua có 2 loại cơ bản là sửa chua có đường và sửa chua không đường. Bên cạnh đó còn có loại sữa chua uống, sửa chua mơn sống. Váng sữa thường được chia làm 3 loại dựa vào hàm lượng chất béo có trong sản phẩm: vàng sữa có hàm lượng chất béo cao nhất (35-50% chất béo), vàng sửa thông thưởng (10-30% chất béo), 
+                    váng sữa nguyên kem (6-150, chất béo).<a href="xemchiteit.html">Xem chi tiết</a>
+                </p>
+           
+                <!-- **** -->
+            <h1 class="rule">Góc thành viên</h1>
+            <h2>Sữa Chua Làm Nhà</h2>
+            <video controls autoplay>
+                <source  src="../lab1/data/images/trangchu/yogurt.mp4" type="video/mp4" >
+            </video>
+            <p>Học làm sữa chua tại gia cùng chuyên gia Trong thực đơn dinh dưỡng của các bà mẹ cho con trẻ và các thành viên trong gia đình đều không thể thiếu món sữa chua thơm ngon, hấp dẫn và cực kì tốt cho sức khỏe này. Tuy nhiên, đa phần đều chọn mua sữa chua công nghiệp đã được đóng hộp bán sẵn tại các siêu thị và cửa hàng hơn là sữa chua tự làm tại nhà. Như vậy, liệu sữa chua nhỏ làm và sữa chua công nghiệp thì loại nào tốt sức khỏe của chúng ta hơn? Nếu là một người yêu thích nấu ăn bạn sẽ chọn sửa nhà làm hay mua sữa chua công nghiệp bên ngoài. Sửa chua nhà làm đảm bảo về độ an toàn,
+                chất lượng cũng như giá thành rẻ.<a href="xemchiteit.html">Xem chi tiết</a></p>
+            <h1>Hướng dẫn làm sữa chua không đường</h1>
             
+            <!-- *** -->
+            <h3>Nguyên liệu làm sữa chua không đường</h3>
+            <ul>
+                <li>1 lít sữa tươi không đường</li>
+                <li>1 hộp sữa chua men cái không đường (bạn có thể mua sữa chua đóng hộp không đường như Vinamilk. TH True Milk....)</li>
+                <li>Dụng cụ nấu và ủ sữa chua</li>
+            </ul>
             
+            <!-- ** -->
+            <h3>Nguyên liệu làm sữa chua không đường</h3>
+            
+            <ol type="1">
+                <li>Cho sữa chua không đường vào nổi, đun nóng lên và khuấy đều, nhẹ tay theo 1 chiều. Tới khi sữa đạt khoảng 40 độ C thì tắt bếp. Bạn có thể dùng tay để kiểm tra, thay sửa an vua phai là được </li>
+                <li>Đồ hộp của chua lam nen cái vào và khuấy đều, múc vào hủ và đem đầu 6 8 tiếng</li>
+                <li>Sau khi ủ xong, bạn có thể dùng 1 hũ sữa chua vừa u để ăn thủ, nếu thấy đạt vị sửa chua rồi có thể bảo quản trong ngăn mát tủ lạnh và thưởng thức dẫn</li>
+            </ol>
+
+            <!-- Đặt hàng ngay -->
+            <h2>Đặt hàng ngay</h2>
+            <img class="order" src="../lab1/data/images/trangchu/order_1.png">
+            <p>Gọi điện</p>
+            <img class="order" src="../lab1/data/images/trangchu/order_2.png">
+            <p>Đặt hàng</p>
+            <img class="order" src="../lab1/data/images/trangchu/order_3.png">
+            <p>Nhận hàng</p>
+            <img class="order" src="../lab1/data/images/trangchu/order_4.png">
+            <p>Thanh toán</p>
         </article>
-
-        <h2>Sữa Chua Làm Nhà</h2>
-        <video controls autoplay>
-             <source  src="../lab1/data/images/trangchu/yogurt.mp4" type="video/mp4" >
-        </video>
-        <p>Học làm sữa chua tại gia cùng chuyên gia Trong thực đơn dinh dưỡng của các bà mẹ cho con trẻ và các thành viên trong gia đình đều không thể thiếu món sữa chua thơm ngon, hấp dẫn và cực kì tốt cho sức khỏe này. Tuy nhiên, đa phần đều chọn mua sữa chua công nghiệp đã được đóng hộp bán sẵn tại các siêu thị và cửa hàng hơn là sữa chua tự làm tại nhà. Như vậy, liệu sữa chua nhỏ làm và sữa chua công nghiệp thì loại nào tốt sức khỏe của chúng ta hơn? Nếu là một người yêu thích nấu ăn bạn sẽ chọn sửa nhà làm hay mua sữa chua công nghiệp bên ngoài. Sửa chua nhà làm đảm bảo về độ an toàn,
-             chất lượng cũng như giá thành rẻ.<a href="xemchiteit.html">Xem chi tiết</a></p>
-        <h1>Hướng dẫn làm sữa chua không đường</h1>
-        
-        <!-- *** -->
-        <h3>Nguyên liệu làm sữa chua không đường</h3>
-        <ul>
-            <li>1 lít sữa tươi không đường</li>
-            <li>1 hộp sữa chua men cái không đường (bạn có thể mua sữa chua đóng hộp không đường như Vinamilk. TH True Milk....)</li>
-            <li>Dụng cụ nấu và ủ sữa chua</li>
-        </ul>
-        
-        <!-- ** -->
-        <h3>Nguyên liệu làm sữa chua không đường</h3>
-        
-        <ol type="1">
-            <li>Cho sữa chua không đường vào nổi, đun nóng lên và khuấy đều, nhẹ tay theo 1 chiều. Tới khi sữa đạt khoảng 40 độ C thì tắt bếp. Bạn có thể dùng tay để kiểm tra, thay sửa an vua phai là được </li>
-            <li>Đồ hộp của chua lam nen cái vào và khuấy đều, múc vào hủ và đem đầu 6 8 tiếng</li>
-            <li>Sau khi ủ xong, bạn có thể dùng 1 hũ sữa chua vừa u để ăn thủ, nếu thấy đạt vị sửa chua rồi có thể bảo quản trong ngăn mát tủ lạnh và thưởng thức dẫn</li>
-        </ol>
-
-        <!-- Đặt hàng ngay -->
-        <h2>Đặt hàng ngay</h2>
-        <img class="order" src="../lab1/data/images/trangchu/order_1.png">
-        <p>Gọi điện</p>
-        <img class="order" src="../lab1/data/images/trangchu/order_2.png">
-        <p>Đặt hàng</p>
-        <img class="order" src="../lab1/data/images/trangchu/order_3.png">
-        <p>Nhận hàng</p>
-        <img class="order" src="../lab1/data/images/trangchu/order_4.png">
-        <p>Thanh toán</p>
-        
     </main>
     <footer>
         <span>&copy; 2021 Bản quyển thuộc về FreeezeVN.</span>
         
-        <a href="https://www.facebook.com/">Facebook</a>
-        <a href="https://twitter.com/">Twitter</a>
-        <a href="https://www.pinterest.com/">Pinterest</a>
-        <a href="#logo" >Về đầu trang</a>
+        <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.pinterest.com/">
+            <i class="fa-brands fa-pinterest"></i>
+        </a>
+        <a class="link-back" href="#logo" >
+            <img class="link-back-img" src="../lab1/data/images/top.png" alt="logo">
+        </a>
     </footer>
 </body>
 </html>
