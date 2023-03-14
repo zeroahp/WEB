@@ -1,4 +1,155 @@
+header{
+    position: relative;
+    background-image: url(data/images/header.png);
+    background-size: cover;
+    padding: 0px 5px;
+    border: 1px solid #ccc7c8;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.img-1{
+    height: 100px;
+    position: absolute;
+    top: -30px;
+    animation: img-1 3s forwards;
+    animation-timing-function: linear;
+    z-index: 3;
+}
+@keyframes img-1{
+    from{left: 80%;}
+    to{left: 30%;}
+}
+
+.img-2{
+    height: 70px;
+    position: absolute;
+    top: -5px;
+    animation: img-2 3s normal forwards ;
+    animation-timing-function: linear;
+}
+@keyframes img-2{
+    from{left: 80%;}
+    to{left: 45%;}
+
+}
+
+.img-3{
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    animation: img-3 3s normal forwards;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+@keyframes img-3{
+    from{left: 80%;}
+    to{left: 63%;}
+}
+
+
+header nav {
+    display: flex; /*chung hàng <a> và <div>*/
+    align-items: center; /*can deu dieuhuong va search*/
+    position: relative;
+    z-index:3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header nav div a{
+    text-decoration: none;
+    border: 1px solid #ccc7c8;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding: 2px 4px;
+    border-radius: 5px; 
+    color: #ed4190 ;
+    /* margin: 3px; */
+}
+
+header nav a:hover{
+    color: #fff;
+    background-color: #ed4190;
+}
+
+/* đổ bóng phần 1 */
+header nav a{
+    box-shadow: 0px 0px 3px 0px #00000066;
+}
+/* đổ bóng phần 1 */
+header nav a{
+    box-shadow: 0px 0px 2px 0px #0000004d;
+}
+
+.search{
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+
+#timkiem{
+    padding: 4px;
+    background-color: #cddc39;
+    color: white;
+}
+
+#giohang{
+    margin-left: 2px;
+    padding: 4px;
+    background-color: #cddc39;
+    color: #ed4190;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+}
+
+main{
+    border: 1px solid #ccc7c8;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    display: grid;
+    border-radius: 5px;
+}
+
+main img{
+    border-radius: 5px;
+}
+
+article{
+    
+}
+
 .order {
     width: 70px;
     height: 70px;
+} 
+
+footer{
+    margin-top: 2px;
+    border: 1px solid #ccc7c8;
+    padding: 5px 0px;
+    border-radius: 2px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+footer a{
+    color: #ed4190;
+    text-decoration: none;
+}
+
+.link-back{
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    padding: 10px;
+    z-index: 100;
+}
+
+.link-back-img{
+    width: 40px;
+    height: 40px;
 }
